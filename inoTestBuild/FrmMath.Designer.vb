@@ -30,6 +30,7 @@ Partial Class FrmMath
         TxtValue2 = New TextBox()
         Label3 = New Label()
         TxtResult = New TextBox()
+        CmdSubtract = New Button()
         SuspendLayout()
         ' 
         ' CmdAdd
@@ -98,6 +99,15 @@ Partial Class FrmMath
         TxtResult.Size = New Size(156, 27)
         TxtResult.TabIndex = 2
         ' 
+        ' CmdSubtract
+        ' 
+        CmdSubtract.Location = New Point(649, 108)
+        CmdSubtract.Name = "CmdSubtract"
+        CmdSubtract.Size = New Size(77, 35)
+        CmdSubtract.TabIndex = 0
+        CmdSubtract.Text = "Subtract"
+        CmdSubtract.UseVisualStyleBackColor = True
+        ' 
         ' FrmMath
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
@@ -110,6 +120,7 @@ Partial Class FrmMath
         Controls.Add(TxtValue1)
         Controls.Add(Label1)
         Controls.Add(CmdClose)
+        Controls.Add(CmdSubtract)
         Controls.Add(CmdAdd)
         Name = "FrmMath"
         Text = "FrmMath"
@@ -125,4 +136,5 @@ Partial Class FrmMath
     Friend WithEvents TxtValue2 As TextBox
     Friend WithEvents Label3 As Label
     Friend WithEvents TxtResult As TextBox
+    Friend WithEvents CmdSubtract As Button
 End Class

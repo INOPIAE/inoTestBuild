@@ -14,6 +14,11 @@ Namespace TestInoBuild
             Assert.AreEqual(5, cMath.addition(2, 3))
         End Sub
 
+        <Test>
+        Public Sub TestSibstraction()
+            Assert.AreEqual(-1, cMath.substraction(2, 3))
+        End Sub
+
     End Class
 
 End Namespace
